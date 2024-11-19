@@ -7,7 +7,7 @@ const PORT = 3000;
 app.use(express.json());
 
 // Connect to MongoDB Atlas
-mongoose.connect('mongodb+srv://pvedant091:dLr3raz5JswGeZ4R@cluster0.onvgo.mongodb.net/pvedant091')
+mongoose.connect('mongodb+srv://username:password@cluster0.onvgo.mongodb.net/username')
     .then(() => console.log('Connected to MongoDB'))
     .catch(err => console.error('Could not connect to MongoDB', err));
 
